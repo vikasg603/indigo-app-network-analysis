@@ -50,8 +50,8 @@ This document explains the process of reverse engineering the Indigo app to disc
     - The Indigo app uses Akamai BMP (Bot Manager Premier) for additional protection, specifically with the `x-acf-sensor-data` header.
 
 2. **Bypassing Akamai BMP**:
-    - Utilized a modified version of an existing Akamai BMP generator [available here](https://github.com/xvertile/akamai-bmp-generator).
-    - Achieved a 60% success rate with the modified version.
+    - Utilized an existing Akamai BMP generator [available here](https://github.com/xvertile/akamai-bmp-generator).
+    - Modified it more to achieve a 60% success rate.
 
 ## Tools and Resources Used
 
@@ -61,6 +61,8 @@ This document explains the process of reverse engineering the Indigo app to disc
     
 - **Akamai BMP Generator**:
     - Tool used to bypass Akamai's Bot Manager Premier protection.
+    - This is public repository that give some 20-30% success rate, I modified it to give 60% success rate.
+    - Have not published the modified version yet.
     - [GitHub Repository](https://github.com/xvertile/akamai-bmp-generator)
 
 ## Conclusion
